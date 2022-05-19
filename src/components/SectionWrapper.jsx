@@ -5,9 +5,9 @@ import assets from '../assets';
 import Button from './Button';
 
 
+
 const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, reverse }) => {
   return (
-    
     <div className={`min-h-screen ${styles.section} 
       ${reverse ? styles.bgWhite : styles.bgPrimary} 
       ${banner}`}>

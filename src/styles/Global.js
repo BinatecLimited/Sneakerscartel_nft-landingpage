@@ -28,6 +28,7 @@ const styles = {
 
   section: "flex justify-center items-center p-16 sm:p-8",
   subSection: "flex items-center w-full minmd:w-3/4",
+  sub: "flex items-left  px-20 w-full ",
   descDiv: "flex-1 w-full flex justify-start flex-col md:mb-10 ",
 
   flexCenter: "flex justify-center items-center",
@@ -35,6 +36,7 @@ const styles = {
 
   fullImg: "w-full h-full object-cover",
   sectionImg: "w-full h-full minmd:w-11/12 minmd:h-11/12 object-contain",
+  logoImg: "minmd:w-11/12 minmd:h-11/12 object-contain padding-bottom:1em",
   btnIcon: "w-5 h-5 minmd:w-10 minmd:h-10 object-contain",
 
   featureImg: "w-20 h-20 minlg:w-40 minlg:h-40 object-contain mb-1",

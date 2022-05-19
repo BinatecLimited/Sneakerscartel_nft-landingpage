@@ -1,18 +1,18 @@
 
-import { Download, Features, Proposal, SectionWrapper, Faq } from './components';
+import { Download, Features, Proposal, SectionWrapper, Faq, Logos } from './components';
 import assets from './assets';
 import styles from './styles/Global';
 import Header from "./Header";
 
 
+
 const App = () => {
   return (
     <>
-      
+      <Logos />
       <SectionWrapper 
         title="Sneakerscartel the Next Gen Web 3.0 move to earn gaming platform."
         description="A place where you earn rewards for your daily steps  you can spend on cool products or convert into it to other crypto currencies."
-        showBtn
         mockupImg={assets.homeHero}
         banner="banner"
       />
@@ -49,10 +49,11 @@ const App = () => {
       <Proposal />
       <Faq/>
       <Download />
+      <logo />
 
-      <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
+      <div className="px-4 py-2 justify-center items-center light-text bg-primary flex-col text-center banner04">
         <p className={`${styles.h6Text} ${styles.whiteText}`}>Designed by {" "}
-        <span className="light">BinatecLimited</span>
+        <span className="light-text">BinatecLimited</span>
         </p>
       </div>
     </>
