@@ -52,7 +52,7 @@ const App = () => {
 
       <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
         <p className={`${styles.h6Text} ${styles.whiteText}`}>Designed by {" "}
-        <span className="bold">BinatecLimited</span>
+        <span className="light">BinatecLimited</span>
         </p>
       </div>
     </>
