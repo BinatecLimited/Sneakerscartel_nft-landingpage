@@ -8,6 +8,7 @@ import react from "./react.png";
 import scene from "./scene.png";
 import mockup from "./mockup.png";
 import voting from "./voting.png";
+import logo from "./logo.png";
 
 export default {
   homeHero,
@@ -20,4 +21,5 @@ export default {
   scene,
   mockup,
   voting,
+  logo,
 };
