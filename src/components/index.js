@@ -2,8 +2,9 @@ import Features from './Features';
 import Download from './Download';
 import SectionWrapper from './SectionWrapper';
 import Proposal from "./Proposal";
-import Faq from "./faq";
+import Accordion from "./Accordion";
 import Logos from "./logo";
 
 
-export { Features, Download, Proposal, Faq, SectionWrapper, Logos };
+
+export { Features, Download, Proposal, Accordion, SectionWrapper, Logos };

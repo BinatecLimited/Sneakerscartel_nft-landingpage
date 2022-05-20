@@ -1,8 +1,10 @@
 
-import { Download, Features, Proposal, SectionWrapper, Faq, Logos } from './components';
+import { Download, Features, Proposal, SectionWrapper, Accordion, Logos, } from './components';
 import assets from './assets';
 import styles from './styles/Global';
 import Header from "./Header";
+
+
 
 
 
@@ -24,7 +26,7 @@ const App = () => {
       />
       <Features />
       <SectionWrapper 
-        title="SAY ABOUT US"
+        title="WHAT PRESS SAY ABOUT US"
         description="“if ever you’ve needed an incentive to exercise, Sneakerscartel could give you a much-needed boost to get active”"
         mockupImg={assets.feature}
         reverse
@@ -47,7 +49,7 @@ const App = () => {
         reverse
       />
       <Proposal />
-      <Faq/>
+      <Accordion />
       <Download />
       <logo />
 
