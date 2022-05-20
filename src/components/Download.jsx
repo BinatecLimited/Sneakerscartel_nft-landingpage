@@ -11,7 +11,7 @@ const Download = () => {
           <h1 className={`${styles.h1Text} ${styles.blackText}`}>Sneakerscartel NFT Collection</h1>
           <p className={`${styles.pText} ${styles.blackText}`}>Check out the full collection on our marketplace</p>
         </div>
-        <button className={styles.btnPrimary}>More NFTs</button>
+       <a href="https://github.com/" ><button className={styles.btnPrimary}>Full NFT Collection</button></a>
         <div className={styles.flexCenter}>
           <img 
             src={assets.scene}
